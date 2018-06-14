@@ -1,0 +1,54 @@
+.container>image{width: 100%;}
+.information{
+  padding: 30rpx 50rpx;
+}
+.information>.phone{
+  width: 550rpx;
+  height: 60rpx;
+  margin: 0 auto;
+  border-bottom: 1px solid #1afa29;
+  position: relative;
+  line-height: 60rpx;
+  margin-bottom: 35rpx;
+  margin-top: 20rpx;
+}
+.information>.phone>image{
+  width: 32rpx;
+  height: 32rpx;
+}
+.information>.phone>input{
+  font-size: 30rpx;
+  position: absolute;
+  left: 60rpx;
+  bottom: 0;
+  height: 60rpx;
+}
+
+.information>button{
+  width: 550rpx;
+  border: none;
+  color: #fff;
+}
+.information>.btn1{
+  background: #f07439;
+  margin-top: 70rpx;
+  margin-bottom: 20rpx;
+}
+.information>.btn2{
+  background: #10d892;
+  margin-bottom: 100rpx;
+}
+.bottom{
+  width: 600rpx;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom>text{
+  font-size: 28rpx;
+  color: #999;
+  cursor: pointer;
+}
+.bottom>text.service{
+  font-size: 18rpx;
+}

@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/usermain/usermain",
+    "pages/userinformation/userinformation",
+    "pages/more/more",
+    "pages/edituserinfo/edituserinfo",
+    "pages/mypurse/mypurse",
+    "pages/record/record",
+    "pages/equipmentrepair/equipmentrepair",
+    "pages/bluetooth/bluetooth",
+    "pages/updatePassword/updatePassword",
+    "pages/repairapply/repairapply",
+    "pages/repairlogs/repairlogs",
+    "pages/help/help",
+    "pages/equipmentploblem/equipmentploblem",
+    "pages/advancemoney/advancemoney"
+
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,81 @@
+/**index.wxss**/
+.container{
+  padding: 0 20rpx;
+}
+.userinfo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius:50%;
+  margin-right: 15px;
+}
+
+username>.userinfo-nickname {
+  color: #000;
+}
+.username{
+  display: flex;
+  flex-direction: column;
+  width: 200rpx;
+  margin-right: 100rpx;
+}
+.username>.loca{
+  font-size: 24rpx;
+  color: #909090;
+  margin-top: 15rpx;
+}
+.userinfo>button{
+  width: 180rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  color: #000;
+  margin-left: 100rpx;
+  background: #FF6699 
+}
+.line{
+  width:100%;
+  margin-top: 30rpx;
+  height:2rpx;
+
+  background:#aaa;
+}
+.btn1{
+  background: #0a0;
+  margin-left: 80rpx;
+  margin-right: 80rpx;
+  color: white;
+  line-height: 140rpx;
+  height: 140rpx;
+  margin-top: 70rpx;
+  margin-bottom: 20rpx;
+}
+.btn2{
+  background: #666666;
+  margin-left: 80rpx;
+  margin-right: 80rpx;
+  color: white;
+  line-height: 140rpx;
+  height: 140rpx;
+  margin-top: 70rpx;
+  margin-bottom: 20rpx;
+}
+.btn3{
+  background: #6666cc;
+  margin-left: 80rpx;
+  margin-right: 80rpx;
+  color: white;
+  line-height: 140rpx;
+  height: 140rpx;
+  margin-top: 70rpx;
+  margin-bottom: 20rpx;
+}
+.equipment{
+  margin-top: 120rpx;
+}

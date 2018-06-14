@@ -1,0 +1,6 @@
+.my-list{
+  margin-top: 20rpx;
+}
+.btn-logout{
+  margin: 100px 0px 0px 0px;
+}

@@ -1,0 +1,36 @@
+<!--pages/help/help.wxml-->
+
+<view class="container"> 
+  <view>帮助中心</view>
+
+
+  <view class='line'>
+  </view>
+  <view class="userinfo" bindtap='equipmentploblem'>
+      <view class='username'>
+         <text class='edit'>设备问题</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+  
+  <view class="userinfo" bindtap='advancemoney'>
+      <view class='username' >
+         <text class='edit' >预付金额</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo" bindtap='contactservice'>
+      <view class='username'>
+         <text class='edit'>联系客服</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+</view>

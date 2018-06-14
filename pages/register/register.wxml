@@ -1,0 +1,42 @@
+<view class='container'>
+   <image src='../images/loginLog.jpg'></image>
+   <view class='information'>
+   <form bindsubmit="formSubmit">
+      <view class="weui-cells weui-cells_after-title my-list">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">请选择学校：</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">
+               <picker mode="selector" range="{{array}}" range-key="{{'name'}}" value="{{index}}" bindchange="listenerPickerSelected">
+    <text>{{array[index].name}}</text>
+</picker>
+        </view>    
+      </view>
+    </view>
+     
+      <view class='phone'>
+         <!-- <image src='../images/user.png'></image> -->
+         <input type="phone" placeholder='手机/邮箱/用户名' name='account'/>
+      </view>
+
+       <view class='phone'>
+         <!-- <image src='../images/pwd.png'></image> -->
+         <input type='password' placeholder='请输入新密码' name='password'></input>
+      </view>
+
+       <view class='phone'>
+         <!-- <image src='../images/pwd.png'></image> -->
+         <input type='password' placeholder='请确定新密码' name='conPwd'></input>
+      </view>
+
+      <button class="btn" type="primary" form-type='submit' style="background: linear-gradient(to right, #22a0ff, #007ce7);">注册</button>
+    </form> 
+   </view>
+   
+   <view class='bottom'>
+      <text></text>
+      <text class='service'>我已同意相关服务条款和隐私政策</text>
+   </view>
+</view>

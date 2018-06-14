@@ -1,0 +1,19 @@
+<view class='container'>
+   <image src='../images/img.png'></image>
+   <view class='information'>
+      <view class='phone'>
+         <image src='../images/user.png'></image>
+         <input class="inputText" bindinput='phoneInput' placeholder='手机/邮箱/用户名'></input>
+      </view>
+       <view class='phone'>
+         <image src='../images/pwd.png'></image>
+         <input class="loginLab" bindinput='passwordInput' type='password' placeholder='密码'></input>
+      </view>
+       <button class="btn1" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
+       <button class="btn2" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="register">注册</button>
+   </view>
+   <view class='bottom'>
+      <text></text>
+      <text bindtap='forgetPwd'>忘记密码？</text>
+   </view>
+</view>

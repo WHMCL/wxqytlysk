@@ -1,0 +1,137 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wx8993731a80542f80",
+	"projectname": "wechatlysk",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 15,
+			"list": [
+				{
+					"id": -1,
+					"name": "usermain",
+					"pathName": "pages/usermain/usermain",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "userinformation",
+					"pathName": "pages/userinformation/userinformation",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "edituserinfo",
+					"pathName": "pages/edituserinfo/edituserinfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mypurse",
+					"pathName": "pages/mypurse/mypurse",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mypurse",
+					"pathName": "pages/record/record",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "more",
+					"pathName": "pages/more/more",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "bluetooth",
+					"pathName": "pages/bluetooth/bluetooth",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "equipmentrepair",
+					"pathName": "pages/equipmentrepair/equipmentrepair",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "equipmentrepair",
+					"pathName": "pages/repairapply/repairapply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "apply",
+					"pathName": "pages/repairapply/repairapply",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "reg",
+					"pathName": "pages/register/register",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "update",
+					"pathName": "pages/updatePassword/updatePassword",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "reg",
+					"pathName": "pages/register/register",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "help",
+					"pathName": "pages/help/help",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "equipmentploblem",
+					"pathName": "pages/equipmentploblem/equipmentploblem",
+					"query": ""
+				}
+			]
+		}
+	}
+}

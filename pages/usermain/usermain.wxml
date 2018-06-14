@@ -1,0 +1,23 @@
+<view class="container"> 
+  <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <view class='username'>
+         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+         <text class='loca'>深圳xxx</text>
+      </view>
+      <button bindtap='userinformation'>个人中心</button>
+  </view>
+ <view class='line'>
+ </view>
+ <view class="equipment">
+  <button class='btn1' bindtap='hotwatershower'>热水澡</button>
+ </view>
+
+ <view class="equipment">
+  <button class='btn2' bindtap=''>敬请等待</button>
+ </view>
+
+ <view class="equipment">
+  <button class='btn3' bindtap=''>使用说明书</button>
+ </view>
+</view>

@@ -1,0 +1,4 @@
+<view class="container"> 
+  <view class="tit">消费记录</view>
+  <view class='line'></view>
+</view>

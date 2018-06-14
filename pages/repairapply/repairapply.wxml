@@ -1,0 +1,71 @@
+<!--pages/repairapply/repairapply.wxml-->
+<view class="page">
+  <view class="page__bd my-list" >
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;" ></image>
+        </view>
+        <view class="weui-cell__bd">设备类型</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">
+<picker mode="selector" range="{{array}}" value="{{index}}" range-key="{{'vchrDeviceName'}}" bindchange="listenerPickerSelected">
+    <text>{{array[index].vchrDeviceName}}</text>
+</picker>
+        </view>
+      </view>    
+    </view>
+
+      <view class="weui-cells weui-cells_after-title my-list">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">楼栋号</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">
+               <picker mode="selector" range="{{loudongarray}}" value="{{index1}}"  range-key="{{'buildingName'}}"  bindchange="listenerPickerSelected1" >
+    <text>{{loudongarray[index1].buildingName}}</text>
+</picker>
+        </view>    
+      </view>
+    </view>
+    
+    <view class="weui-cells weui-cells_after-title my-list">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">房间号</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">
+        <picker mode="selector" range="{{roomarray}}" value="{{index2}}" range-key="{{'roomName'}}" bindchange="listenerPickerSelected2" >
+          <text>{{roomarray[index2].roomName}}</text>
+        </picker>
+        </view>
+      </view>
+    </view>
+
+    
+    <view class="weui-cells weui-cells_after-title my-list">
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">电话号码</view>
+        <input class='weui-cell__ft' bindinput="phoneInput"></input>
+      </view>
+    </view>
+  
+    <view class="weui-cells weui-cells_after-title my-list">
+    
+        <view class="weui-cell__hd">
+          <image src="{{icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <textarea placeholder='请填写报修内容'bindinput="repairdesc"></textarea>
+      
+    </view>
+
+    
+      <button class="weui-btn" type="primary" style="background: linear-gradient(to right, #22a0ff, #007ce7); " bindtap="repaircommit">报修提交</button>
+    
+  </view>
+</view>

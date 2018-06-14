@@ -1,0 +1,41 @@
+<view class="container"> 
+  <view>我的钱包</view>
+  <view class='line'>
+  </view> 
+  <view class="userinfo">
+      <view class='username'>
+         <text class="userinfo-nickname">可用余额</text>
+         <text class='loca'>¥100</text>
+      </view>
+      <button bindtap='equipmentapp'>充值</button>
+  </view>
+  <view class='line'>
+  </view>
+  <view class="userinfo" bindtap='edittap'>
+      <view class='username'>
+         <text class='edit'>预付金额</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+  
+  <view class="userinfo" bindtap='openpurse'>
+      <view class='username' >
+         <text class='edit' >我要提现</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo">
+      <view class='username'>
+         <text class='edit'>充值提现记录</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+</view>

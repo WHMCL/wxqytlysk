@@ -1,0 +1,44 @@
+<view class="container"> 
+  <view class="userinfo">
+         <text class='loca'>更多</text>
+  </view>
+  <view class='line'>
+  </view>
+  <view class="userinfo" bindtap='edittap'>
+      <view class='username'>
+         <text class='edit'>帮助中心</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+  
+  <view class="userinfo">
+      <view class='username'>
+         <text class='edit'>意见反馈</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo">
+      <view class='username'>
+         <text class='edit'>用户协议</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo">
+      <view class='username'>
+         <text class='edit' bindtap='c'>关于我们</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+
+</view>

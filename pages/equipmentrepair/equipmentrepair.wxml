@@ -1,0 +1,23 @@
+<view class="container"> 
+  <view class="tit">设备报修</view>
+  <view class='line'></view>
+
+   <view class="userinfo" bindtap='btnrepairapply'>
+      <view class='username'>
+         <text class='edit'>报修申请</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+  
+  <view class="userinfo" bindtap='btnrepairlogs'>
+      <view class='username'>
+         <text class='edit'>报修记录</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+</view>

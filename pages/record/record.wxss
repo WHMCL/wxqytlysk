@@ -1,0 +1,10 @@
+.tit{
+  margin-left: 20rpx;
+  font-family: cursive;
+}
+.line{
+  width:100%;
+  margin-top: 30rpx;
+  height:2rpx;
+  background:#aaa;
+}

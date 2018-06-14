@@ -1,0 +1,58 @@
+<view class="container"> 
+  <view class="userinfo">
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <view class='username'>
+         <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+         <text class='loca'>深圳xxx</text>
+      </view>
+      <button bindtap='equipmentapp'>设备应用</button>
+  </view>
+  <view class='line'>
+  </view>
+  <view class="userinfo" bindtap='edittap'>
+      <view class='username'>
+         <text class='edit'>编辑个人信息</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+  
+  <view class="userinfo" bindtap='openpurse'>
+      <view class='username' >
+         <text class='edit' >我的钱包</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo" bindtap='conrecord'>
+      <view class='username'>
+         <text class='edit'>消费记录</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo" bindtap='repair'>
+      <view class='username'>
+         <text class='edit'>设备报修</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+
+  <view class="userinfo" bindtap='tzmore'>
+      <view class='username'>
+         <text class='edit' >更多</text>
+      </view>
+           <image class="arrow" src='../images/arrowright.png' background-size="cover"></image>
+  </view>
+  <view class='line'>
+  </view>
+ 
+
+</view>
